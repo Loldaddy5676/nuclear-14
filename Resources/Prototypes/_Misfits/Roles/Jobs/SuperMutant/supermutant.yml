@@ -279,6 +279,9 @@
   spawnLoadout: true
   applyTraits: true
   startingGear: SuperMutantNCRTrooperGear
+  access:
+  - NCR
+  - NCRSGT
   requirements:
     - !type:CharacterSpeciesRequirement
       species:
@@ -387,6 +390,10 @@
   playTimeTracker: SuperMutantFollowerDoctor
   icon: JobIconBorg
   supervisors: job-supervisors-follower-head
+  accessGroups:
+  - FollowersApocalypse
+  - FotADoctor
+  - FotA
   canBeAntag: false
   setPreference: true
   overrideConsoleVisibility: true

@@ -4917,3 +4917,217 @@ Entries:
   id: 5868
   time: '2026-05-12T15:07:29.0000000+00:00'
   url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/490
+- author: Dpellowski
+  changes:
+    - type: Add
+      message: >-
+        Added Tribe, War and Raid systems (new FactionWar and RaidRequest
+        features), including server logic and client UI to start and manage
+        raids.
+    - type: Remove
+      message: >-
+        Removed legacy raid/faction hooks and deprecated compatibility code to
+        simplify the war flow.
+    - type: Tweak
+      message: >-
+        Adjusted raid request flow, faction war balancing, and localization for
+        Ug-Qualtoth content.
+    - type: Fix
+      message: >-
+        Fixed several sync/desync issues and server-side validation around raid
+        requests and faction war state.
+  id: 5869
+  time: '2026-05-12T23:54:36.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/492
+- author: NajaTheNaja
+  changes:
+    - type: Fix
+      message: >-
+        promethine now requires 5u at once to cure, identical to AmbuzolPlus
+        from basegame.
+    - type: Fix
+      message: >-
+        HP and SP now require 10 hours of squire, just like regular paladin.
+        this wont impact anyone who meets the new paladin requirements. 
+  id: 5870
+  time: '2026-05-12T23:54:47.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/491
+- author: Dpellowski
+  changes:
+    - type: Fix
+      message: Ranger time Fixes + MPs
+  id: 5871
+  time: '2026-05-13T00:57:55.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/494
+- author: Loldaddy5676
+  changes:
+    - type: Tweak
+      message: 'amount of job slots available for vault faction, nothing else. '
+  id: 5872
+  time: '2026-05-13T01:09:38.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/493
+- author: Dpellowski
+  changes:
+    - type: Add
+      message: Whispers
+  id: 5873
+  time: '2026-05-13T02:32:11.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/498
+- author: Bradysgaming
+  changes:
+    - type: Add
+      message: Added Centurion Cinder Cohort Armor
+    - type: Add
+      message: Added Centurion Salt Column Armor
+    - type: Add
+      message: Added Unbroken Centurion Armor
+    - type: Add
+      message: Added Warforged Centurion Armor
+    - type: Add
+      message: Added Warlord Centurion Armor
+    - type: Tweak
+      message: brought all cent armor to 45% dmg resist across the board
+    - type: Tweak
+      message: Made zoot suit cheaper for supermutants in the loadout
+  id: 5874
+  time: '2026-05-13T02:32:55.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/497
+- author: Wazura
+  changes:
+    - type: Tweak
+      message: Recon Ranger Armor Speed set to 10%(5% increase)
+    - type: Tweak
+      message: Ranger Coat Armor Vault set to 30% for Both Pierce and Heat(5% increase)
+  id: 5875
+  time: '2026-05-13T02:34:26.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/496
+- author: pierow
+  changes:
+    - type: Fix
+      message: Adds armor values to SM NCR Trooper Helmet
+  id: 5876
+  time: '2026-05-13T02:39:20.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/500
+- author: NajaTheNaja
+  changes:
+    - type: Tweak
+      message: changed gutsy bullet type
+  id: 5877
+  time: '2026-05-13T03:01:21.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/501
+- author: pierow
+  changes:
+    - type: Fix
+      message: Dogtag access to SM NCR Trooper
+  id: 5878
+  time: '2026-05-13T03:06:49.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/502
+- author: Dpellowski
+  changes:
+    - type: Fix
+      message: War fixed see proper sides, no ckeys, can join and ceasefire
+  id: 5879
+  time: '2026-05-13T15:05:25.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/504
+- author: Dpellowski
+  changes:
+    - type: Add
+      message: ugqualtoth broadcasts stage 4
+    - type: Tweak
+      message: hp ugqualtoth set to 1k
+  id: 5880
+  time: '2026-05-13T16:57:36.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/505
+- author: Vixting
+  changes:
+    - type: Add
+      message: >-
+        Ported upstream botany fixes / changes. Majority of mutations are no
+        longer persistent & can be rerolled. Can now examine plants to see
+        obvious mutations. 
+    - type: Remove
+      message: Atmos related & teleporting mutations have been disabled
+  id: 5881
+  time: '2026-05-13T19:09:30.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/506
+- author: Oli
+  changes: []
+  id: 5882
+  time: '2026-05-13T19:09:51.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/507
+- author: Dpellowski
+  changes:
+    - type: Tweak
+      message: Slash from 80 -> 65 ugqualtoth
+  id: 5883
+  time: '2026-05-13T19:20:23.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/508
+- author: Bradysgaming
+  changes: []
+  id: 5884
+  time: '2026-05-13T21:07:49.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/509
+- author: HungryCuban
+  changes:
+    - type: Tweak
+      message: 'Reduce Neostead ammo capacity '
+    - type: Tweak
+      message: 'Neostead now requires wielding '
+    - type: Fix
+      message: Fixed Neostead backsprite being the same as inhand sprite
+  id: 5885
+  time: '2026-05-13T21:08:37.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/511
+- author: Dpellowski
+  changes:
+    - type: Fix
+      message: Names should be whatever ID you have on.
+  id: 5886
+  time: '2026-05-13T22:06:10.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/512
+- author: WazuraWasTaken
+  changes:
+    - type: Add
+      message: Ceremonial Sword and Goliath Fist for Centurion
+    - type: Add
+      message: Gladius to Loadouts
+    - type: Add
+      message: Cheaper Gladius and Longsword for Legion and Bos
+  id: 5887
+  time: '2026-05-14T00:11:10.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/483
+- author: pierow
+  changes:
+    - type: Fix
+      message: SM FotA dogtag access
+  id: 5888
+  time: '2026-05-15T00:41:20.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/516
+- author: HungryCuban
+  changes:
+    - type: Fix
+      message: Fixed RCW equipped sprite showing it wielding it-->
+  id: 5889
+  time: '2026-05-15T00:41:36.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/518
+- author: Dpellowski
+  changes:
+    - type: Fix
+      message: war
+  id: 5890
+  time: '2026-05-15T01:52:51.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/520
+- author: Vixting
+  changes:
+    - type: Remove
+      message: 'disable plant sentience '
+  id: 5891
+  time: '2026-05-15T01:53:17.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/517
+- author: NajaTheNaja
+  changes:
+    - type: Remove
+      message: sm second backpack slot
+  id: 5892
+  time: '2026-05-15T02:54:45.0000000+00:00'
+  url: https://github.com/Misfit-Sanctuary/nuclear-14/pull/521
